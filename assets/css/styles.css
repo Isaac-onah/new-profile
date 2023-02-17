@@ -474,6 +474,10 @@ color: var(--first-color);
   margin-bottom: 2.5rem;
 }
 
+.services__button{
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+}
 
 /* Services modal */
 
