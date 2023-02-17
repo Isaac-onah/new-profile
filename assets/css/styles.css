@@ -469,6 +469,12 @@ color: var(--first-color);
   border-radius: 1rem;
 }
 
+.services__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 2.5rem;
+}
+
+
 /* Services modal */
 
 
