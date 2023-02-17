@@ -483,6 +483,16 @@ color: var(--first-color);
   cursor: pointer;
 }
 
+.services__button:hover .services__icon{
+  transform: translateX(.25rem);
+}
+
+.services__icon{
+  font-size: 1rem;
+  transition: .4s;
+}
+
+
 /* Services modal */
 
 
