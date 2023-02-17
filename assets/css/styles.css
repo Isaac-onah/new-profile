@@ -477,6 +477,10 @@ color: var(--first-color);
 .services__button{
   color: var(--first-color);
   font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+  cursor: pointer;
 }
 
 /* Services modal */
