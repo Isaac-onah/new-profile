@@ -527,6 +527,11 @@ color: var(--first-color);
   font-size: var(--small-font-size);
   margin-bottom: 2rem;
 }
+
+.services__modal-list{
+  display: grid;
+  row-gap: .75rem;
+}
 /*Active modal*/
 
 
