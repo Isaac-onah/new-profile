@@ -523,6 +523,10 @@ color: var(--first-color);
   margin-bottom: 1rem;
 }
 
+.services__modal-description{
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
 /*Active modal*/
 
 
