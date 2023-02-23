@@ -501,6 +501,8 @@ color: var(--first-color);
   padding: 2rem 1rem;
   display: grid;
   place-items: center;
+  visibility: hidden;
+  opacity: 0;
   transition: .4s;
   z-index: var(--z-modal);
 }
