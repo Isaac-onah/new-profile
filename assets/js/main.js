@@ -15,6 +15,11 @@ let modal = function(modalClick){
     modalViews[modalClick].classList.add('active-modal')
 }
 
+modalBtns.forEach((mb, i) => {
+    mb.addEventListener('click', () =>{
+        modal(i)
+    })
+})
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
 
