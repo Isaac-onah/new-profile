@@ -558,13 +558,24 @@ color: var(--first-color);
   color: var(--first-color);
   cursor: pointer;
 }
+
 /*Active modal*/
 .active-modal{
   opacity: 1;
   visibility: visible;
 }
-/*=============== WORK ===============*/
 
+/*=============== WORK ===============*/
+.work__container{
+  padding-top: 1rem;
+}
+
+.work__filters{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .75rem;
+}
 
 /* Active item work*/
 
