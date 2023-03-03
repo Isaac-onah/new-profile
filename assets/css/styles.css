@@ -642,6 +642,9 @@ color: var(--first-color);
   margin-bottom: 1rem;
 }
 
+.testimonial__description{
+  font-size: var(--small-font-size);
+}
 /* Swiper class */
 
 
