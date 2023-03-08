@@ -64,8 +64,15 @@ var swiperTestimonial = new Swiper(".testimonial__container", {
         640:{
             slidesPerview:2,
             spaceBetween:20,
-        }
-        768:
+        },
+        768:{
+            slidesPerview:4,
+            spaceBetween:40,
+        },
+        1024:{
+            slidesPerview:5,
+            spaceBetween:50,
+        },
     }
   });
 
