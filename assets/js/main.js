@@ -60,6 +60,13 @@ var swiperTestimonial = new Swiper(".testimonial__container", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    breakpoints:{
+        640:{
+            slidesPerview:2,
+            spaceBetween:20,
+        }
+        768:
+    }
   });
 
 
