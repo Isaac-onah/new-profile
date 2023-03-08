@@ -32,9 +32,9 @@ git commit --date='2023-02-19 12:42:45' -m 'commit message'
 git commit --date='2023-02-20 12:42:45' -m 'commit message'
 
 
-git commit --date='2023-02-21 12:12:45' -m 'commit message'
-git commit --date='2023-02-21 12:22:45' -m 'commit message'
-git commit --date='2023-02-21 12:32:45' -m 'commit message'
+git commit --date='2023-02-21 12:12:45' -m 'commit message'sdsdsd
+git commit --date='2023-02-21 12:22:45' -m 'commit message'cxc
+git commit --date='2023-02-21 12:32:45' -m 'commit message'sdsd
 git commit --date='2023-02-21 12:42:45' -m 'commit message'
 
 git commit --date='2023-02-22 12:12:45' -m 'commit message'
@@ -75,30 +75,11 @@ git commit --date='2023-03-04 12:12:45' -m 'commit message'
 git commit --date='2023-03-05 12:12:45' -m 'commit message'
 git commit --date='2023-03-05 12:22:45' -m 'commit message'
 
-.services__modal-content{
-  position: relative;
-  background-color: var(--body-color);
-  padding: 4.5rem 1.5rem 2.5rem;
-  border-radius: 1.5rem;
-}
 
-.services__modal-title,
-.services__modal-description{
-  text-align: center;
-}
 
-.services__modal-title{
-  font-size: var(--h3-font-size);
-  color: var(--first-color);
-  margin-bottom: 1rem;
-}
 
-.services__modal-description{
-  font-size: var(--small-font-size);
-  margin-bottom: 2rem;
-}
 
-.services__modal-list{
-  display: grid;
-  row-gap: .75rem;
-}
+
+
+
+
