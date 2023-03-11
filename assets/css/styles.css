@@ -657,7 +657,10 @@ color: var(--first-color);
 }
 
 /*=============== CONTACT ===============*/
-
+.contact__container{
+  row-gap: 3rem;
+  padding-bottom: 3rem;
+}
 
 /*=============== FOOTER ===============*/
 
