@@ -676,6 +676,8 @@ color: var(--first-color);
 .contact__card{
   background-color: var(--container-color);
   padding: 1rem;
+  border-radius: .75rem;
+  text-align: center;
 }
 
 /*=============== FOOTER ===============*/
