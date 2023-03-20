@@ -796,7 +796,11 @@ color: var(--first-color);
 
 
 /*=============== SCROLL BAR ===============*/
-
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(var(--second-hue), 8%, 38%);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
