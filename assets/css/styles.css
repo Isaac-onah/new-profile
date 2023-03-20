@@ -785,7 +785,14 @@ color: var(--first-color);
   column-gap: 1.25rem;
 }
 
-
+.footer__social-link{
+  background-color: var(--body-color);
+  color: var(--first-color);
+  padding: .25rem;
+  border-radius: .25rem;
+  font-size: 1rem;
+  display: inline-flex;
+}
 
 
 /*=============== SCROLL BAR ===============*/
