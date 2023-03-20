@@ -781,6 +781,8 @@ color: var(--first-color);
 
 .footer__social{
   display: flex;
+  justify-content: center;
+  column-gap: 1.25rem;
 }
 
 
