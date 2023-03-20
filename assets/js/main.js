@@ -91,7 +91,7 @@ function scrollActive(){
 
     })
 }
-
+window.addEventListener('scroll', scrollActive)
 /*=============== LIGHT DARK THEME ===============*/ 
 
 

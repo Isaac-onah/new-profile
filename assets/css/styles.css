@@ -110,9 +110,16 @@ img {
 }
 
 /*=============== THEME ===============*/
+.change-theme{
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: .3s;
+}
 
-
-/*========== Variables Dark theme ==========*/
+.change-theme:hover{
+  color: var(--first-color);
+}
+/*========== Variables light theme ==========*/
 
 
 /*========== 
