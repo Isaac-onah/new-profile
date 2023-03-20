@@ -802,6 +802,12 @@ color: var(--first-color);
   background-color: hsl(var(--second-hue), 8%, 38%);
 }
 
+::-webkit-scrollbar-thumb{
+  background-color: hsl(var(--second-hue), 8%, 26%);
+  border-radius: .5rem;
+}
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
