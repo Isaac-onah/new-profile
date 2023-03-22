@@ -95,7 +95,7 @@ window.addEventListener('scroll', scrollActive)
 
 /*=============== LIGHT DARK THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme'
+const lightTheme = 'light-theme'
 const iconTheme = 'bx-sun'
 
 //previously selected topic (if user selection)
@@ -115,6 +115,16 @@ if (selectedTheme){
     themeButton.classList[selectedIcon === 'bx bx-moon' ? 'add' : 'remove'](iconTheme)
 }
 
+//activate / deactivate the theme manually with the button
+themeButton.addEventListener('click', ()=>{
+    //add or remove the dark /icon theme
+    document.body.classList.toggle(darkTheme)
+    themeButton.classList.toggle(iconTheme)
+
+    //we save the theme and the current icon that the user chose
+    localStorage.setItem('selected-theme', getCurrentTheme())
+    localStorage.setItem('selected-icon', getCurrentIcon())
+})
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 
