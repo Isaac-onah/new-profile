@@ -111,7 +111,8 @@ const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'bx bx-
 
 if (selectedTheme){
     //if the validation is fulfilled, we ask waht the issue was to know is we activated or deactivated the dark
-    
+    document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+    themeButton.classList[selectedIcon === 'bx bx-moon' ? 'add' : 'remove'](iconTheme)
 }
 
 
