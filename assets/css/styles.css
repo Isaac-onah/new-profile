@@ -201,6 +201,7 @@ body.light-theme{
 
 .main {
   overflow: hidden;
+  padding: 0 10px;
 }
 
 .section {
@@ -901,7 +902,14 @@ color: var(--first-color);
   .about__info{
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
+  .skills__box{
+    column-gap: 1rem;
+  }
+
+  .skills__name{
+    font-size: var(--small-font-size);
+  }
 }
 
 /* For medium devices */
