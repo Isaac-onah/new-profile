@@ -233,6 +233,7 @@ body.light-theme{
   width: 100%;
   background-color: var(--body-color);
   z-index: var(--z-fixed);
+  transition: .4s; /* for light mode animation */
 }
 
 .nav{
@@ -247,7 +248,7 @@ body.light-theme{
   color: var(--first-color);
   font-weight: var(--font-medium);
   transition: .4s;
-}
+} 
 
 .nav__logo:hover{
   color: var(--first-color-alt);
@@ -262,6 +263,7 @@ body.light-theme{
   backdrop-filter: blur(10px);   
   left: 0;
   transform: translate(calc(50vw - 50%));
+  transition: .4s; /* for light mode animation */
 }
 
 .nav__list{
@@ -878,7 +880,29 @@ color: var(--first-color);
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .nav__menu{
+    padding: 1rem 11.5rem;
+  }
+  
+  .home__buttons{
+    flex-direction: column;
+  }
 
+  .home__handle{
+    width: 200px;
+    height: 200px;
+  }
+
+  .home__img{
+    width: 200px;
+  }
+
+  .about__info{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
 
 /* For medium devices */
 
