@@ -910,6 +910,14 @@ color: var(--first-color);
   .skills__name{
     font-size: var(--small-font-size);
   }
+
+  .services__container{
+    grid-template-columns: 145px;
+    justify-content: center;
+  }
+  .work__item{
+    font-size: var(--small-font-size);
+  }
 }
 
 /* For medium devices */
