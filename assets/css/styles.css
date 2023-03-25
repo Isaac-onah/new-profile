@@ -883,7 +883,7 @@ color: var(--first-color);
 /* For small devices */
 @media screen and (max-width: 320px) {
   .nav__menu{
-    padding: 1rem 11.5rem;
+    padding: 1rem 1.5rem;
   }
   
   .home__buttons{
@@ -918,9 +918,41 @@ color: var(--first-color);
   .work__item{
     font-size: var(--small-font-size);
   }
+
+  .work__filters{
+    column-gap: .25rem;
+  }
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
+  .nav__menu{
+    width: 328px;
+  
+  }
+  
+.about__info{
+  grid-template-columns: repeat(3, 140px );
+  justify-content: center;
+}
+.about__description{
+  padding: 0 5rem;
+}
 
+.skills__container{
+  justify-content: center;
+}
+
+.skills__content{
+  padding: 2rem 4rem;
+}
+
+.services__container{
+  grid-template-columns: repeat(2, 160px);
+  justify-content: center;
+}
+
+
+}
 
 /* For large devices */
