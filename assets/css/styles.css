@@ -951,7 +951,22 @@ color: var(--first-color);
   grid-template-columns: repeat(2, 160px);
   justify-content: center;
 }
+.services__modal-content{
+  width: 500px;
+  padding: 4.5rem 2.5rem 2.5rem; 
+}
 
+.services__modal-description{
+  padding: 0 3.5rem; 
+}
+
+.work__container{
+  justify-content: center;
+}
+
+.work__img{
+  width: 295px;
+}
 
 }
 
