@@ -1010,4 +1010,22 @@ color: var(--first-color);
     height: calc(var(--header-height) + 1rem);
   }
 
+.home__handle{
+  width: 400px;
+  height: 400px;
+}
+.home__img{
+  width: 400px;
+}
+
+.home__social-link{
+  padding: .4rem;
+  font-size: 1.25rem;
+}
+
+.home__social::after{
+  transform: rotate(90deg) translate(16px, 0);
+}
+
+
 }
