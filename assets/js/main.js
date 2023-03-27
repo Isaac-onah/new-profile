@@ -61,12 +61,12 @@ var swiperTestimonial = new Swiper(".testimonial__container", {
       clickable: true,
     },
     breakpoints:{
-        576:{
-            slidesPerview:2,
+        576: {
+            slidesPerview: 2,
         },
-        768:{
-            slidesPerview:2,
-            spaceBetween:48,
+        768: {
+            slidesPerview: 2,
+            spaceBetween: 48,
         },
     }
   });
