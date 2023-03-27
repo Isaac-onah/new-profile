@@ -1092,4 +1092,13 @@ color: var(--first-color);
   padding: 1.5rem 2rem;
 }
 
+.contact__container{
+  column-gap: 6rem;
+}
+
+.footer__social-link{
+  font-size: 1.25rem;
+  padding: .4rem;
+}
+
 }
