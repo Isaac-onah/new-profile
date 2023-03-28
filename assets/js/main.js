@@ -128,3 +128,6 @@ themeButton.addEventListener('click', ()=>{
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 
+const sr = ScrollReveal({
+    origin: 'top'
+})
