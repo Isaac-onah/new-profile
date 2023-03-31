@@ -50,7 +50,7 @@ function activeWork(){
 linkWork.forEach(l => l.addEventListener('click', activeWork))
 
 /*=============== SWIPER TESTIMONIAL ===============*/
-var swiperTestimonial = new Swiper(".testimonial__container", {
+let swiperTestimonial = new Swiper(".testimonial__container", {
     spaceBetween: 24,
     loop:true,
     grabCursor:true,
@@ -62,13 +62,13 @@ var swiperTestimonial = new Swiper(".testimonial__container", {
     },
     breakpoints:{
         576: {
-            slidesPerview: 2,
+            slidesPerView: 2,
         },
         768: {
-            slidesPerview: 2,
+            slidesPerView: 2,
             spaceBetween: 48,
         },
-    }
+    },
   });
 
 
