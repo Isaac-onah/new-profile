@@ -431,15 +431,15 @@ color: var(--first-color);
 
 /*=============== ABOUT ===============*/
 
-.about__container{
+/* .about__container{
   row-gap: 2.5rem;
-}
+} */
 
-.about__img{
+/* .about__img{
   width: 220px;
   border-radius: 1.5rem;
   justify-self: center;
-}
+} */
 
 .about__data{
   text-align: center;
@@ -1030,19 +1030,20 @@ color: var(--first-color);
   font-size: 2rem;
 }
 
-.about__container{
+/* .about__container{
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 4rem;
-}
+} */
 
 .about__data{
-  text-align: initial;
+  /* text-align: initial; */
+  justify-content: center;
 }
 
-.about__info{
+/* .about__info{
   justify-content: initial;
-}
+} */
 
 .about__box{
   text-align: center;
